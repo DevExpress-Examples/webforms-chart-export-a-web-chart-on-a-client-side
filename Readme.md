@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to export a web chart on a client side
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e544/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to use client-side events to export a WebChartControl to PDF on a client side. To do this, it is necessary to do the following:<br />
