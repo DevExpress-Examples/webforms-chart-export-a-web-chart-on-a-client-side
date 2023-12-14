@@ -12,7 +12,7 @@ This example demonstrates how to use client-side events to export `WebChartContr
 2. Add two [ASPxButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton) controls to a web page, and set their `AutoPostBack` properties to `False`.
 3. Handle their client-side Click event as "chart1.SaveToWindow('pdf');" or "chart1.SaveToDisk('pdf')
 
-Since exporting a chart to PDF is based upon the XtraPrinting Library, add a reference to the DevExpress.XtraPrinting assembly into your project's References list.
+Since exporting a chart to PDF is based upon the XtraPrinting Library, add a reference to the `DevExpress.XtraPrinting` assembly into your project's References list.
 
 ## Files to Review
 
