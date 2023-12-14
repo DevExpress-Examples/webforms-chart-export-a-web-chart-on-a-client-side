@@ -3,23 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E544)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
-<!-- default file list end -->
-# How to export a web chart on a client side
+# Chart for Web Forms - How to Export a Web Chart on a Client Side
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e544/)**
 <!-- run online end -->
 
+This example demonstrates how to use client-side events to export `WebChartControl` to PDF on a client side. 
 
-<p>This example demonstrates how to use client-side events to export a WebChartControl to PDF on a client side. To do this, it is necessary to do the following:<br />
-1. Set the WebChartControl.ClientInstanceName property to some value (e.g. "chart1");<br />
-2. Add two ASPxButton controls to a web page, and set their AutoPostBack properties to False;<br />
-3. Handle their client-side Click event as "chart1.SaveToWindow('pdf');" or "chart1.SaveToDisk('pdf');".</p><p>NOTE: Since exporting a chart to PDF is based upon the XtraPrinting Library, don't forget to add a reference to the DevExpress.XtraPrinting assembly into your project's References list.</p>
+1. Specify the [WebChartControl.ClientInstanceName](https://docs.devexpress.com/AspNet/DevExpress.XtraCharts.Web.WebChartControl.ClientInstanceName) property (e.g. "chart1").
+2. Add two [ASPxButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton) controls to a web page, and set their `AutoPostBack` properties to `False`.
+3. Handle their client-side Click event as "chart1.SaveToWindow('pdf');" or "chart1.SaveToDisk('pdf')
 
-<br/>
+Since exporting a chart to PDF is based upon the XtraPrinting Library, add a reference to the DevExpress.XtraPrinting assembly into your project's References list.
 
+## Files to Review
+
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+
+## Documentation
+
+* [How to: Export a Chart](https://docs.devexpress.com/AspNet/7786/components/chart-control/concepts/creating-charts/miscellaneous/how-to-export-a-chart)
 
