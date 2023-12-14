@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Chart for Web Forms - How to Export a Web Chart on a Client Side
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e544/)**
-<!-- run online end -->
 
 This example demonstrates how to use client-side events to export `WebChartControl` to PDF on a client side. 
 
