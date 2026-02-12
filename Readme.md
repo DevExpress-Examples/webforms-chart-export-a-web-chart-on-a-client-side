@@ -25,7 +25,7 @@ Since exporting a chart to PDF is based upon the XtraPrinting Library, add a ref
 * [How to: Export a Chart](https://docs.devexpress.com/AspNet/7786/components/chart-control/concepts/creating-charts/miscellaneous/how-to-export-a-chart)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=webforms-chart-export-a-web-chart-on-a-client-side&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=webforms-chart-export-a-web-chart-on-a-client-side&~~~was_helpful=no)
 
